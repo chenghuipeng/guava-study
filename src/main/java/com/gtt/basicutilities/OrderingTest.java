@@ -159,4 +159,7 @@ public class OrderingTest {
 		List<Integer> orderList = Lists.newArrayList(1, 2, 3, 4, 5);
 		assertTrue(orderList.equals(Ordering.natural().sortedCopy(unorderList)));
 	}
+
+
+
 }
